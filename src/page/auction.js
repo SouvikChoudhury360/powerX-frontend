@@ -4,12 +4,12 @@ import Modal from 'react-bootstrap/Modal';
 import '../css/auction_css/index.css';
 import '../css/auction_css/modal.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {back_auction} from "../assets/auction_assets/index";
+// import {back_auction} from "../assets/auction_assets/index";
 
 export default function Auction() {
     
     const [data, setData] = useState([]);
-    const API_BASE = "http://localhost:5500";
+    const API_BASE = "https://powerx-backend.onrender.com";
 
     const [smShow, setSmShow] = useState(false);
 
@@ -111,7 +111,7 @@ export default function Auction() {
         </Modal>
         <div className="body_A">
             <div>
-                <img src={back_auction} alt="" className="back_auction_A"/>
+                <img src="https://drive.google.com/uc?export=view&id=17o9LevTlkOewpJMS4-8Q6oIM4X97s_UQ" alt="" className="back_auction_A"/>
             </div>
             <div className="mnu_A">
                 <Menu/>

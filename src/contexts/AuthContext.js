@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react"
 
-const API_BASE = "http://localhost:5500";
+const API_BASE = "https://powerx-backend.onrender.com";
 
 const AuthContext = React.createContext()
 

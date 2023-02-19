@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {connectImage} from "../../assets/node_assets/index"
+// import {connectImage} from "../../assets/node_assets/index"
 import Modal from 'react-bootstrap/Modal';
 import { useAuth } from "../../contexts/AuthContext"
 
@@ -17,7 +17,7 @@ const RightN=()=>{
 
     const { currentUser} = useAuth()
 
-    const API_BASE = "http://localhost:5500";
+    const API_BASE = "https://powerx-backend.onrender.com";
     const [wallets, setWallets] = useState([])
     var selected = []
 
@@ -159,7 +159,7 @@ const RightN=()=>{
 
             <div className="writt_N2">
                 <h1 className="h1_right_N">Connect New Nodes</h1>
-                <img src={connectImage}  alt="err" style={{height: "15rem", width: "14rem", margin: "auto", marginTop: "2rem"}} ></img>
+                <img src="https://drive.google.com/uc?export=view&id=1XnEZbZ_iqqCQ_cDopsbwEemd2i2O4yQQ"  alt="err" style={{height: "15rem", width: "14rem", margin: "auto", marginTop: "2rem"}} ></img>
             </div>
 
             <div className="form_outer_N">

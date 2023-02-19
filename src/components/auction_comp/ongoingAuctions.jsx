@@ -1,5 +1,5 @@
 import React from "react";
-import {runner} from "../../assets/auction_assets/index";
+// import {runner} from "../../assets/auction_assets/index";
 
 const OngoingAuctions = (props)=>{
 
@@ -11,7 +11,7 @@ const OngoingAuctions = (props)=>{
       <div className="hello_A">
       <h1 className="back_text_decor_A">
         <span className="auctions_head_A">Ongoing Auctions</span>
-        <img src={runner} alt="err" className="ongoing_img_A"/>
+        <img src="https://drive.google.com/uc?export=view&id=1GEnAsvC5nxFEiS6PgN2ud3v4eeZKcnDm" alt="err" className="ongoing_img_A"/>
       </h1>
       </div>
       <div className="tab_A">

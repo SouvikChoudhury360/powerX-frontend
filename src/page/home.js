@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAuth } from "../contexts/AuthContext";
-import {logo, poster, i_dashboard} from "../assets/home_assets"
+// import {logo, poster, i_dashboard, profile_page, auctions_page, node_page} from "../assets/home_assets"
+import {poster} from "../assets/home_assets"
 import {code, dashboard, switches} from "../assets/home_assets/icons"
 import { MyVerticallyCenteredModal } from '../components/home_comp';
 
@@ -37,7 +38,7 @@ export default function Home() {
 
                                 {/* <!-- LOGO --> */}
                                 <a href="/" aria-current="page" className="w-40 nuxt-link-exact-active nuxt-link-active"
-                                    data-v-84d642e8><img width="100%" src={logo} alt="" className="h-auto" />
+                                    data-v-84d642e8><img width="100%" src="https://drive.google.com/uc?export=view&id=1YLkAhZKaEsVcvFvZbuNYUSL3oAla6iP7" alt="" className="h-auto" />
                                 </a>
                                 <div className="items-center justify-between space-x-2 hidden lg:flex" data-v-84d642e8>
                                     {/* <!-- classNamees removed ---- px-8 text-sm cursor-pointer hover:text-primary-grey-dark --> */}
@@ -145,9 +146,8 @@ export default function Home() {
                                         <div className="col-md-6">
                                             <div className="content-block__media rellax-false">
                                                 <img width="1024" height="591"
-                                                    src="https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-1-1024x591.jpg"
+                                                    src="https://drive.google.com/uc?export=view&id=1hneEbMjhFlDWVt__3T6CStMXrYW9IbOV"
                                                     className="content-block__image" alt="" decoding="async" loading="lazy"
-                                                    srcSet="https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-1-1024x591.jpg 1024w, https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-1-768x443.jpg 768w, https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-1-50x29.jpg 50w, https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-1.jpg 1046w"
                                                     sizes="(max-width: 1024px) 100vw, 1024px" />
                                             </div>
                                         </div>
@@ -171,9 +171,8 @@ export default function Home() {
                                         <div className="col-md-6">
                                             <div className="content-block__media rellax-false">
                                                 <img width="1024" height="591"
-                                                    src="https://www.xdefi.io/wp-content/uploads/2022/12/A-single-gallery-for-all-your-NFTs-1024x591.png"
+                                                    src="https://drive.google.com/uc?export=view&id=1nHMrL6SbgZDBz7jWIzg01oZwFrIeDB8E"
                                                     className="content-block__image" alt="" decoding="async" loading="lazy"
-                                                    srcSet="https://www.xdefi.io/wp-content/uploads/2022/12/A-single-gallery-for-all-your-NFTs-1024x591.png 1024w, https://www.xdefi.io/wp-content/uploads/2022/12/A-single-gallery-for-all-your-NFTs-768x443.png 768w, https://www.xdefi.io/wp-content/uploads/2022/12/A-single-gallery-for-all-your-NFTs-50x29.png 50w, https://www.xdefi.io/wp-content/uploads/2022/12/A-single-gallery-for-all-your-NFTs.png 1046w"
                                                     sizes="(max-width: 1024px) 100vw, 1024px" />
                                             </div>
                                         </div>
@@ -197,9 +196,8 @@ export default function Home() {
                                         <div className="col-md-6">
                                             <div className="content-block__media rellax-false">
                                                 <img width="1024" height="591"
-                                                    src="https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-3-1024x591.jpg"
+                                                    src="https://drive.google.com/uc?export=view&id=1NQDWaB4jk8wrVWcqPQQb5Hvk_byYnzwJ"
                                                     className="content-block__image" alt="" decoding="async" loading="lazy"
-                                                    srcSet="https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-3-1024x591.jpg 1024w, https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-3-768x443.jpg 768w, https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-3-50x29.jpg 50w, https://www.xdefi.io/wp-content/uploads/2022/05/home-screenshot-3.jpg 1046w"
                                                     sizes="(max-width: 1024px) 100vw, 1024px" />
                                             </div>
                                         </div>
@@ -220,7 +218,7 @@ export default function Home() {
                                 <div className="flex flex-col space-y-16 container-1080">
                                     <div className="flex flex-col-reverse md:flex-row justify-between items-center pb-16">
                                         <div className="flex flex-col justify-center md:items-start items-center space-y-6"><img
-                                                width="100%" src={logo} alt=""
+                                                width="100%" src="https://drive.google.com/uc?export=view&id=1YLkAhZKaEsVcvFvZbuNYUSL3oAla6iP7" alt=""
                                                 className="h-auto w-64 md:w-40" id="special-img" />
                                             <div className="max-w-md w-full text-gray-500">
                                                 The premier interface for Energy Trading! Create your
@@ -267,7 +265,7 @@ export default function Home() {
                                                 Dashboard
                                                 </Link>
                                             }
-                                        </div> <img width="100%" src={i_dashboard} alt=""
+                                        </div> <img width="100%" src="https://drive.google.com/uc?export=view&id=1xkNLpuEPCI4TU-Sz5kMwmQNorlkIjS2r" alt=""
                                             className="h-auto w-5/6 md:w-1/2" style={{zIndex: "11"}} />
                                     </div>
 

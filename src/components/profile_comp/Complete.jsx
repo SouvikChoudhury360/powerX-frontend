@@ -4,7 +4,7 @@ import ToggleButton from 'react-bootstrap/ToggleButton';
 
 const Complete =()=>{
 
-    const API_BASE = "http://localhost:5500";
+    const API_BASE = "https://powerx-backend.onrender.com";
 
     const [buy, setBuy] = useState([]);
     const [sell, setSell] = useState([]);

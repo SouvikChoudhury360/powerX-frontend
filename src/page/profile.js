@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {  Menu, Details, Stats, Ongoing, Complete, BidModal } from '../components/profile_comp/index';
 import '../css/profile_css/prof_index.css';
 import { useNavigate } from "react-router-dom"
-import {eth} from "../assets/profile_assets/index"
+// import {eth} from "../assets/profile_assets/index"
 
 export default function Profile() {
 
@@ -12,7 +12,7 @@ export default function Profile() {
     return (
         <div className="profile_back">
           <div>
-            <img src={eth} className="background-image-P" alt=""/>
+            <img src="https://drive.google.com/uc?export=view&id=1MJ2LFcL-GNz1g4044AeZj-9nEYhJD2Un" className="background-image-P" alt=""/>
           </div>
           <div className="mnu_p">
             <Menu/>
@@ -26,8 +26,8 @@ export default function Profile() {
 
           <div className="btn_p">
             <div className="butn_p">
-              <button className="button_p" onClick={() => navigate("/auction")}>BUY</button>
-              <button className="button_p" onClick={() => setModalShow(true)}>SELL</button>
+              <button className="button_p" onClick={() => navigate("/auction")}>Buy Energy ⚡</button>
+              <button className="button_p" onClick={() => setModalShow(true)}>Sell Energy ⚡</button>
             </div>
           </div>
 

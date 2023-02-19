@@ -4,7 +4,7 @@ const Ongoing =()=>{
 
     const [data, setData] = useState([]);
 
-    const API_BASE = "http://localhost:5500";
+    const API_BASE = "https://powerx-backend.onrender.com";
 
     // console.log("inside profile my live auctions")
 

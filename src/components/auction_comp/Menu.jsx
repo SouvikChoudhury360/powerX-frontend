@@ -1,5 +1,5 @@
 import React from "react";
-import {logo} from "../../assets/auction_assets/index"
+// import {logo} from "../../assets/auction_assets/index"
 import { useAuth } from "../../contexts/AuthContext"
 import { useNavigate } from "react-router-dom"
 import { Link } from "react-router-dom";
@@ -23,7 +23,7 @@ const Menu =()=>{
         <>
           <div className="menu_N">
             <span className="logo_N">
-              <img src={logo} alt="err" style={{height:"30px"}}/>
+              <img src="https://drive.google.com/uc?export=view&id=1YLkAhZKaEsVcvFvZbuNYUSL3oAla6iP7" alt="err" style={{height:"30px"}}/>
             </span>
             <span className="logo_N">
               <Link to="/" className="Head_N"><span >Home</span></Link>

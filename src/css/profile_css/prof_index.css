@@ -131,23 +131,18 @@
     overflow:hidden;
 }
 .button_p {
-    background-color: white; /* Green */
-    border: none;
-    color: #5d32ab;
-    padding: 10px 27px;
+    background: linear-gradient(111.7deg, rgb(251, 198, 6) 2.4%, rgb(224, 82, 95) 28.3%, rgb(194, 78, 154) 46.2%, rgb(32, 173, 190) 79.4%, rgb(22, 158, 95) 100.2%);
+    color: #ffffff;
+    padding: 7px 20px;
     text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 600;
     border-radius: 12px;
-    border: 2px solid rgb(49, 49, 95);
-    box-shadow: 1px 2px 5px #1c1617;
-    transform: scale(0.9);
 }
 
 .button_p:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+    background: linear-gradient(111.7deg, rgb(229, 183, 18) 2.4%, rgb(185, 68, 78) 28.3%, rgb(168, 68, 133) 46.2%, rgb(26, 145, 158) 79.4%, rgb(18, 125, 75) 100.2%);
+    color: #e6e3e3;
 }
 
 .auctions_p{
@@ -167,8 +162,8 @@
     padding: 20px;
     background: rgb(0 0 0);
     padding-bottom: 2.6rem;
-    border-radius: 1rem;
-    border: 4px solid #253eed;
+    border-radius: 2rem;
+    border: 4px solid #961aff;
 }
 
 .ongoing_p{
@@ -179,7 +174,8 @@
     background: rgb(0 0 0);
     padding-bottom: 2.6rem;
     border-radius: 1rem;
-    border: 4px solid #253eed;
+    border-radius: 2rem;
+    border: 4px solid #961aff;
 }
 
 .tbody_P{

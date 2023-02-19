@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from "react";
-import {linkImg} from "../../assets/node_assets/index"
+// import {linkImg} from "../../assets/node_assets/index"
 
 const ConnectN=()=>{
 
     const [wallets, setWallets] = useState([]);
 
-    const API_BASE = "http://localhost:5500";
+    const API_BASE = "https://powerx-backend.onrender.com";
 
     // console.log("inside connected nodes")
 
@@ -16,7 +16,6 @@ const ConnectN=()=>{
             .then(data => setWallets(data.arr))
 
     }, []);
-
 
     return (
         <>
@@ -33,7 +32,7 @@ const ConnectN=()=>{
                 <div className="list_N">
                 {wallets.map(ids => 
                     <div className="WIds_N">
-                        <img src={linkImg}  alt="err" className="energy-connect_N"/>
+                        <img src="https://drive.google.com/uc?export=view&id=1gvB9AL9ZhXy0fsPyJ7u8OHqhSqmn6Pkz"  alt="err" className="energy-connect_N"/>
                         <div className="list-item-N">{ids}</div>
                     </div>)}
                 </div>

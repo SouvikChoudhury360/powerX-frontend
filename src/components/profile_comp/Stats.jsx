@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
-import {buy_pic, sell_pic} from "../../assets/profile_assets/index"
+// import {buy_pic, sell_pic} from "../../assets/profile_assets/index"
 
 const Stats=()=>{
 
-  const API_BASE = "http://localhost:5500";
+  const API_BASE = "https://powerx-backend.onrender.com";
   
   const [buy, setBuy] = useState(0);
   const [sell, setSell] = useState(0);
@@ -29,12 +29,12 @@ const Stats=()=>{
         <>
           <div className="statistics_p">
             <div className="stat-details-outer">
-                <img src={buy_pic} className="stats-img-P" alt=""/>
+                <img src="https://drive.google.com/uc?export=view&id=1uvJdhzT7_GEcEmImYMoMNJIXuxR6_CYp" className="stats-img-P" alt=""/>
                 <h2 className="total_P">Total Buy</h2>
                 <h3 className="total_value_P">{buy} KWh</h3>
             </div>
             <div className="stat-details-outer">
-              <img src={sell_pic} className="stats-img-P"  alt=""/>
+              <img src="https://drive.google.com/uc?export=view&id=1X72ztmDO-OoOxhbfOtpGkXe6DcqWBNjF" className="stats-img-P"  alt=""/>
                 <h2 className="total_P">Total Sold</h2>
                 <h3 className="total_value_P">{sell} KWh</h3>
             </div>

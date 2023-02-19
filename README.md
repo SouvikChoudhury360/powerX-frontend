@@ -24,20 +24,24 @@ How to set up the project locally:-
 
 1. Install NODE JS from [https://nodejs.org/en/] 
 2. Clone the repo
-   sh
-   git clone [https://github.com/SouvikChoudhury360/powerX-frontend]
+   ```sh
+    git clone https://github.com/SouvikChoudhury360/powerX-frontend
+   ```
    
 3. Install NPM packages
-   sh
-   npm install --force
+
+   ```sh
+      npm install --force
+   ```
    
 4. Create .env file for Private Key
 
 ## Usage
 
 Open the folder in any IDE , in the integrated terminal write the command given below to run the program . 
-sh
-   npm run start
+   ```sh
+      npm run start
+   ```
    
 Server starts at localhost:3000 
 
